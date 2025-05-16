@@ -14,9 +14,11 @@
 ### 1. 개발 환경 구성
 - 새 폴더 생성
 - 프로젝트 폴더 생성 후 Express 초기화:
-  ```bash
+```
+  bash
   npm init -y
   npm install express mysql2
+ ```
 
  ### 2. MySQL 테이블 만들기
  ```bash
@@ -26,7 +28,7 @@
   CREATE TABLE users (
   ID VARCHAR(50) NOT NULL PRIMARY KEY,
   PW VARCHAR(255) NOT NULL);
-
+```
 ### 3. 서버(app.js) 코드 작성
 /register: POST 요청을 통해 사용자 ID, PW 저장
 
