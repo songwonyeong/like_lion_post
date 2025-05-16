@@ -20,13 +20,12 @@
 
  ### 2. MySQL 테이블 만들기
  ```bash
- CREATE DATABASE if  not exists wonyeong;
-use wonyeong;
+  CREATE DATABASE if  not exists wonyeong;
+  use wonyeong;
 
-CREATE TABLE users (
-    ID VARCHAR(50) NOT NULL PRIMARY KEY,
-    PW VARCHAR(255) NOT NULL
-);
+  CREATE TABLE users (
+  ID VARCHAR(50) NOT NULL PRIMARY KEY,
+  PW VARCHAR(255) NOT NULL);
 
 ### 3. 서버(app.js) 코드 작성
 /register: POST 요청을 통해 사용자 ID, PW 저장
