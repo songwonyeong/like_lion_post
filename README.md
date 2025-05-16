@@ -19,7 +19,7 @@
   npm install express mysql2
 
  ### 2. MySQL 테이블 만들기
- 
+ ```bash
  CREATE DATABASE if  not exists wonyeong;
 use wonyeong;
 
@@ -41,3 +41,12 @@ ID, PW를 입력하면 DB에 저장
 
 GET /db
 저장된 모든 사용자 정보(ID, PW) 조회 가능
+
+### 5. 📸 API 테스트 결과
+
+회원 등록 (POST /register)
+![회원 등록](./images/1.png)
+![회원 중복 등록 시](./images/2.png)
+
+사용자 목록 조회 (GET /db)
+![사용자 조회](./images/3.png)
