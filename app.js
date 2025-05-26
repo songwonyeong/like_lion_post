@@ -7,10 +7,10 @@ app.use(express.json())
 
 // MySQL 연결 설정
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '6428',
-  database: 'wonyeong'
+  host: '',
+  user: '',
+  password: '',
+  database: ''
 })
 
 connection.connect(err => {
